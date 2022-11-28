@@ -1,5 +1,8 @@
-const App = () => {
-  return <h1>liscruz.com</h1>;
-};
+import { useState } from "react";
+import Header from "./components/Header/Header";
+
+function App() {
+  return <Header />;
+}
 
 export default App;
